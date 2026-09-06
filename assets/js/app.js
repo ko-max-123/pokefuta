@@ -166,7 +166,7 @@
   function renderMapPage() {
     root.innerHTML = pageShell(`
       <article class="folio-page folio-map">
-        ${folioHeading({ number: "一", eyebrow: "旅の目次", title: "日本をめぐる", intro: "行きたい地方を指で選ぶ。", backHref: "index.html", backLabel: "表紙", seal: "道" })}
+        ${folioHeading({ number: "一", eyebrow: "旅の目次", title: "ポケフタを巡る", intro: "行きたい地方を指で選ぶ。", backHref: "index.html", backLabel: "表紙", seal: "道" })}
         ${renderMap()}
         ${folioNext("list.html", "全国の蓋を見る")}
       </article>`, "book-page");

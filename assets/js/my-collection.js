@@ -1743,34 +1743,34 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 千葉県｜香取市｜香取市｜ガラルカモネギ（ID: 222）
   "222": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/222_千葉_香取_佐原駅.jpg",
+    visited: true,
+    photographed: "2023/10/07",
+    memo: "佐原駅"
   },
 
   // 千葉県｜香取市｜香取市｜ココガラ・タイレーツ（ID: 223）
   "223": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/223_千葉_香取_伊能忠敬記念館.jpg",
+    visited: true,
+    photographed: "2023/10/07",
+    memo: "伊能忠敬記念館"
   },
 
   // 千葉県｜香取市｜香取市｜フラージェス・ヤヤコマ（ID: 224）
   "224": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/224_千葉_香取_水郷佐原あやめパーク.jpg",
+    visited: true,
+    photographed: "2023/10/07",
+    memo: "水郷佐原あやめパーク"
   },
 
   // 千葉県｜香取市｜香取市｜ハスボー・タネボー・ムクバード（ID: 225）
   "225": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/225_千葉_香取_道の駅 水の郷さわら.jpg",
+    visited: true,
+    photographed: "2023/10/07",
+    memo: "道の駅 水の郷さわら"
   },
 
   // 栃木県｜宇都宮市｜宇都宮市｜エレブー・ホシガリス（ID: 226）
@@ -3279,10 +3279,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 三重県｜鳥羽市｜鳥羽市｜ミジュマル（ID: 414）
   "414": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/414_三重_鳥羽_ミジュマル公園 in とば.jpg",
+    visited: true,
+    photographed: "2025/10/15",
+    memo: "ミジュマル公園 in とば"
   },
 
   // 三重県｜鈴鹿市｜鈴鹿市｜ミジュマル（ID: 415）

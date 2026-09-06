@@ -183,10 +183,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 神奈川県｜横浜市｜横浜市｜ピカチュウ（ID: 23）
   "23": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/23_神奈川_横浜_桜木町駅.jpg",
+    visited: true,
+    photographed: "2026/06/23",
+    memo: "横浜 桜木町駅"
   },
 
   // 香川県｜高松市｜高松市｜ヤドン（ID: 28）
@@ -751,7 +751,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜フシギダネ（ID: 98）
   "98": {
-    photo: "assets/photos/98_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/98_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -759,7 +759,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜ヒトカゲ（ID: 99）
   "99": {
-    photo: "assets/photos/99_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/99_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -767,7 +767,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜ゼニガメ（ID: 100）
   "100": {
-    photo: "assets/photos/100_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/100_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -775,7 +775,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜ナゾノクサ・ビードル・キャタピー（ID: 101）
   "101": {
-    photo: "assets/photos/101_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/101_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -783,7 +783,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜ポッポ・コラッタ（ID: 102）
   "102": {
-    photo: "assets/photos/102_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/102_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -791,7 +791,7 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 東京都｜町田市｜町田市｜ニョロモ（ID: 103）
   "103": {
-    photo: "assets/photos/103_東京_芦ケ谷公園.jpg",
+    photo: "assets/photos/103_東京_町田_芦ケ谷公園.jpg",
     visited: true,
     photographed: "2026/08/22",
     memo: "芦ケ谷公園"
@@ -2455,34 +2455,34 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 神奈川県｜横浜市｜横浜市｜ピカチュウ・ライチュウ（ID: 311）
   "311": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/311_神奈川_横浜_赤レンガ倉庫.jpg",
+    visited: true,
+    photographed: "2026/06/23",
+    memo: "横浜 赤レンガ倉庫"
   },
 
   // 神奈川県｜横浜市｜横浜市｜ピカチュウ・ペリッパー（ID: 312）
   "312": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/312_神奈川_横浜_山下公園.jpg",
+    visited: true,
+    photographed: "2026/06/23",
+    memo: "横浜 山下公園"
   },
 
   // 神奈川県｜横浜市｜横浜市｜ピカチュウ・ビクティニ・ゴンべ（ID: 313）
   "313": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/313_神奈川_横浜_みなとみらい.jpg",
+    visited: true,
+    photographed: "2026/06/23",
+    memo: "横浜 みなとみらい"
   },
 
   // 神奈川県｜横浜市｜横浜市｜ピカチュウ・コダック・ワンリキー（ID: 314）
   "314": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/314_神奈川_横浜_みなとみらい.jpg",
+    visited: true,
+    photographed: "2026/06/23",
+    memo: "横浜 みなとみらい"
   },
 
   // 福岡県｜太宰府市｜太宰府市｜キルリア・メブキジカ・ヤヤコマ（ID: 315）
@@ -2759,26 +2759,26 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 静岡県｜沼津市｜沼津市｜ハンテール・ジーランス・サクラビス（ID: 349）
   "349": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/349_静岡_沼津_沼津港大型展望水門 びゅうお.jpg",
+    visited: true,
+    photographed: "2026/07/19",
+    memo: "沼津港大型展望水門 びゅうお"
   },
 
   // 静岡県｜富士市｜富士市｜ファイヤー（ID: 350）
   "350": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/350_静岡_富山_富士川ハイウェイ.jpg",
+    visited: true,
+    photographed: "2026/07/19",
+    memo: "富士川ハイウェイ"
   },
 
   // 静岡県｜伊豆市｜伊豆市｜ヤンチャム・ゴロンダ（ID: 351）
   "351": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/351_静岡_修善寺_独鈷の湯公園.jpg",
+    visited: true,
+    photographed: "2026/07/19",
+    memo: "修善寺 独鈷の湯公園"
   },
 
   // 京都府｜宇治市｜宇治市｜ヒバニー・パッチール（ID: 352）

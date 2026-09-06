@@ -1775,26 +1775,26 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 栃木県｜宇都宮市｜宇都宮市｜エレブー・ホシガリス（ID: 226）
   "226": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/226_栃木_宇都宮_駅東公園.jpg",
+    visited: true,
+    photographed: "2026/05/13",
+    memo: "駅東公園"
   },
 
   // 栃木県｜宇都宮市｜宇都宮市｜ラクライ・イワパレス（ID: 227）
   "227": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/227_栃木_宇都宮_ろまんちっく村.jpg",
+    visited: true,
+    photographed: "2026/05/13",
+    memo: "ろまんちっく村"
   },
 
   // 栃木県｜宇都宮市｜宇都宮市｜ボルトロス（ID: 228）
   "228": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/226_栃木_宇都宮_八幡山公園.jpg",
+    visited: true,
+    photographed: "2026/05/13",
+    memo: "八幡山公園"
   },
 
   // 沖縄県｜浦添市｜浦添市｜ソルロック・ポポッコ（ID: 229）
@@ -1903,18 +1903,18 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 三重県｜伊勢市｜伊勢市｜ミジュマル・リーシャン（ID: 242）
   "242": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/242_三重_伊勢_伊勢神宮外宮.jpg",
+    visited: true,
+    photographed: "2025/10/15",
+    memo: "伊勢神宮外宮"
   },
 
   // 三重県｜鳥羽市｜鳥羽市｜ミジュマル・ジュゴン（ID: 243）
   "243": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/243_三重_鳥羽_鳥羽駅.jpg",
+    visited: true,
+    photographed: "2025/10/15",
+    memo: "鳥羽駅"
   },
 
   // 三重県｜熊野市｜熊野市｜ミジュマル・ヌイコグマ（ID: 244）
@@ -1951,18 +1951,18 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 福島県｜会津若松市｜会津若松市｜ラッキー・エルレイド（ID: 248）
   "248": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/248_福島_会津若松_会津総合運動公園.jpg",
+    visited: true,
+    photographed: "2026/05/10",
+    memo: "会津総合運動公園"
   },
 
   // 福島県｜郡山市｜郡山市｜ラッキー・プリン（ID: 249）
   "249": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/249_福島_郡山市_ラッキー公園inこおりやまし.jpg",
+    visited: true,
+    photographed: "2026/05/10",
+    memo: "ラッキー公園inこおりやまし"
   },
 
   // 福島県｜南会津町｜南会津町｜ラッキー・ドッコラー（ID: 250）
@@ -1975,10 +1975,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 福島県｜柳津町｜柳津町｜ラッキー・ピンプク（ID: 251）
   "251": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "251_福島_柳津町_道の駅会津柳津.jpg",
+    visited: true,
+    photographed: "2026/05/10",
+    memo: "道の駅会津柳津"
   },
 
   // 福島県｜昭和村｜昭和村｜ラッキー・クルミル（ID: 252）
@@ -2223,18 +2223,18 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 福島県｜猪苗代町｜猪苗代町｜ラッキー・ハヤシガメ・スワンナ（ID: 282）
   "282": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/282_福島_猪苗代町_道の駅 猪苗代.jpg",
+    visited: true,
+    photographed: "2026/05/10",
+    memo: "道の駅 猪苗代(いなわしろ）"
   },
 
   // 福島県｜会津美里町｜会津美里町｜ラッキー・ドレディア（ID: 283）
   "283": {
-    photo: "",
+    photo: "assets/photos/283_福島_会津美里町_伊佐須美神社外苑（あやめ外苑）.jpg",
     visited: false,
-    photographed: "",
-    memo: ""
+    photographed: "2026/05/10",
+    memo: "伊佐須美神社外苑（あやめ外苑）"
   },
 
   // 福島県｜西郷村｜西郷村｜ラッキー・ウパー（ID: 284）
@@ -2919,10 +2919,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 福島県｜会津坂下町｜会津坂下町｜ラッキー・カイリキー（ID: 369）
   "369": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/369_福島_会津坂下町_坂下中央公園.jpg",
+    visited: true ,
+    photographed: "2026/05/10",
+    memo: "坂下中央公園"
   },
 
   // 福島県｜鏡石町｜鏡石町｜ラッキー・ミルタンク・メリープ（ID: 370）
@@ -2943,10 +2943,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 福島県｜湯川村｜湯川村｜ラッキー・アブリー・ラルトス（ID: 372）
   "372": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/372_福島_湯川村_道の駅 あいづ 湯川・会津坂下.jpg",
+    visited: true,
+    photographed: "2026/05/10",
+    memo: "道の駅 あいづ 湯川・会津坂下"
   },
 
   // 福島県｜国見町｜国見町｜ラッキー・ピンプク・クルマユ・タブンネ（ID: 373）
@@ -3199,10 +3199,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 愛知県｜名古屋市｜名古屋市｜コイキング・ネッコアラ（ID: 404）
   "404": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/404_愛知_名古屋_名古屋城.jpg",
+    visited: true,
+    photographed: "2025/10/17",
+    memo: "名古屋城"
   },
 
   // 愛知県｜瀬戸市｜瀬戸市｜ニャヒート・ブーバー（ID: 405）
@@ -3255,10 +3255,10 @@ window.MY_POKEFUTA_COLLECTION = {
 
   // 茨城県｜つくば市｜つくば市｜レックウザ（ID: 411）
   "411": {
-    photo: "",
-    visited: false,
-    photographed: "",
-    memo: ""
+    photo: "assets/photos/411_茨城_つくば_中央公園.jpg",
+    visited: true,
+    photographed: "2025/12/01",
+    memo: "つくば 中央公園"
   },
 
   // 茨城県｜常陸太田市｜常陸太田市｜ボーマンダ・ルチャブル（ID: 412）

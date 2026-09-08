@@ -149,9 +149,9 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 静岡県｜伊豆国｜三嶋大社（ID: 019）
   "019": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/019_静岡_三嶋大社.jpg",
+    visited: true,
+    worshipped: "三嶋大社",
     memo: ""
   },
 
@@ -165,17 +165,17 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 神奈川県｜相模国｜寒川神社（ID: 021）
   "021": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/021_神奈川_寒川神社.jpg",
+    visited: true,
+    worshipped: "寒川神社",
     memo: ""
   },
 
   // 神奈川県｜相模国｜鶴岡八幡宮（ID: 022）
   "022": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/022_神奈川_鶴岡八幡宮.jpg",
+    visited: true,
+    worshipped: "鶴岡八幡宮",
     memo: ""
   },
 
@@ -183,7 +183,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   "023": {
     photo: "assets/photos/023_埼玉_氷川神社.jpg",
     visited: true,
-    worshipped: "",
+    worshipped: "氷川神社",
     memo: ""
   },
 
@@ -191,15 +191,15 @@ window.MY_ICHINOMIYA_COLLECTION = {
   "024": {
     photo: "assets/photos/024_埼玉_氷川女体神社.jpg",
     visited: true,
-    worshipped: "",
+    worshipped: "氷川女体神社",
     memo: ""
   },
 
   // 千葉県｜安房国｜安房神社（ID: 025）
   "025": {
     photo: "assets/photos/025_千葉_安房神社.jpg",
-    visited: false,
-    worshipped: "",
+    visited: true,
+    worshipped: "安房神社",
     memo: ""
   },
 
@@ -277,25 +277,25 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 群馬県｜上野国｜貫前神社（ID: 035）
   "035": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/035_群馬_貫前神社.jpg",
+    visited: true,
+    worshipped: "貫前神社",
     memo: ""
   },
 
   // 栃木県｜下野国｜二荒山神社（ID: 036）
   "036": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/036_栃木_二荒山神社.jpg",
+    visited: true,
+    worshipped: "二荒山神社",
     memo: ""
   },
 
   // 栃木県｜下野国｜日光二荒山神社（ID: 037）
   "037": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/037_栃木_日光二荒山神社.jpg",
+    visited: true,
+    worshipped: "日光二荒山神社",
     memo: ""
   },
 
@@ -661,17 +661,17 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 福岡県｜筑前国｜筥崎宮（ID: 083）
   "083": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/083_福岡_筥崎宮.jpg",
+    visited: true,
+    worshipped: "筥崎宮",
     memo: ""
   },
 
   // 福岡県｜筑前国｜住吉神社（ID: 084）
   "084": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/084_福岡_住吉神社.jpg",
+    visited: true,
+    worshipped: "住吉神社",
     memo: ""
   },
 
@@ -726,7 +726,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 熊本県｜肥後国｜阿蘇神社（ID: 091）
   "091": {
     photo: "",
-    visited: false,
+    visited: true,
     worshipped: "",
     memo: ""
   },
@@ -805,17 +805,17 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 福島県｜岩代国｜伊佐須美神社（ID: 101）
   "101": {
-    photo: "",
-    visited: false,
+    photo: "assets/photos/101_福島_伊佐須美神社.jpg",
+    visited: true,
     worshipped: "",
     memo: ""
   },
 
   // 埼玉県｜知知夫国｜秩父神社（ID: 102）
   "102": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/102_埼玉_秩父神社.jpg",
+    visited: true,
+    worshipped: "秩父神社",
     memo: ""
   },
 

@@ -141,9 +141,9 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 静岡県｜駿河国｜浅間大社（ID: 018）
   "018": {
-    photo: "",
-    visited: false,
-    worshipped: "",
+    photo: "assets/photos/018_静岡_浅間大社.jpg",
+    visited: true,
+    worshipped: "浅間大社",
     memo: ""
   },
 

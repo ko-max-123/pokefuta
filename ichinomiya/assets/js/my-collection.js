@@ -181,7 +181,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 埼玉県｜武蔵国｜氷川神社（ID: 023）
   "023": {
-    photo: "",
+    photo: "assets/photos/023_埼玉_氷川神社.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -189,7 +189,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 埼玉県｜武蔵国｜氷川女体神社（ID: 024）
   "024": {
-    photo: "",
+    photo: "assets/photos/024_埼玉_氷川女体神社.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -197,7 +197,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 千葉県｜安房国｜安房神社（ID: 025）
   "025": {
-    photo: "",
+    photo: "assets/photos/025_千葉_安房神社.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -205,7 +205,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 千葉県｜安房国｜洲崎神社（ID: 026）
   "026": {
-    photo: "",
+    photo: "assets/photos/026_千葉_洲崎神社.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -213,7 +213,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 千葉県｜上総国｜玉前神社（ID: 027）
   "027": {
-    photo: "",
+    photo: "assets/photos/027_千葉_玉前神社.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -221,7 +221,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 千葉県｜下総国｜香取神宮（ID: 028）
   "028": {
-    photo: "",
+    photo: "assets/photos/028_千葉_香取神宮.jpg",
     visited: false,
     worshipped: "",
     memo: ""
@@ -229,7 +229,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
 
   // 茨城県｜常陸国｜鹿島神宮（ID: 029）
   "029": {
-    photo: "",
+    photo: "assets/photos/029_茨城_鹿島神宮.jpg",
     visited: false,
     worshipped: "",
     memo: ""

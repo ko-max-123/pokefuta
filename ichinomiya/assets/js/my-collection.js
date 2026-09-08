@@ -222,7 +222,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 千葉県｜下総国｜香取神宮（ID: 028）
   "028": {
     photo: "assets/photos/028_千葉_香取神宮.jpg",
-    visited: false,
+    visited: true,
     worshipped: "",
     memo: ""
   },
@@ -230,7 +230,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 茨城県｜常陸国｜鹿島神宮（ID: 029）
   "029": {
     photo: "assets/photos/029_茨城_鹿島神宮.jpg",
-    visited: false,
+    visited: true,
     worshipped: "",
     memo: ""
   },
@@ -294,7 +294,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 栃木県｜下野国｜日光二荒山神社（ID: 037）
   "037": {
     photo: "assets/photos/037_栃木_日光二荒山神社.jpg",
-    visited: true,
+    visited: false,
     worshipped: "日光二荒山神社",
     memo: ""
   },

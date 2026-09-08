@@ -182,7 +182,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 埼玉県｜武蔵国｜氷川神社（ID: 023）
   "023": {
     photo: "assets/photos/023_埼玉_氷川神社.jpg",
-    visited: false,
+    visited: true,
     worshipped: "",
     memo: ""
   },
@@ -190,7 +190,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
   // 埼玉県｜武蔵国｜氷川女体神社（ID: 024）
   "024": {
     photo: "assets/photos/024_埼玉_氷川女体神社.jpg",
-    visited: false,
+    visited: true,
     worshipped: "",
     memo: ""
   },

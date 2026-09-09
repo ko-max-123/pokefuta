@@ -98,7 +98,7 @@
         <a href="shrines/${shrine.id}.html">
           ${photoFrame(shrine)}
           <div class="spot-card-body">
-            <p class="kicker">現在の${escapeHtml(shrine.prefecture)}・${rubyMarkup(shrine.province, shrine.provinceReading)}</p>
+            <p class="kicker">${escapeHtml(shrine.prefecture)}・${rubyMarkup(shrine.province, shrine.provinceReading)}</p>
             <h3>${rubyMarkup(shrine.name, shrine.nameReading)}</h3>
             <p class="spot-address">${escapeHtml(shrine.address)}</p>
           </div>
@@ -202,7 +202,7 @@
               const provinceShrines = shrines.filter((shrine) => shrine.province === province);
               const provinceVisited = provinceShrines.filter(isVisited).length;
               const present = currentPrefectures(provinceShrines).join("・");
-              return `<a class="prefecture-ticket" href="province.html?province=${encodeURIComponent(province)}"><span class="province-ticket-name">${rubyMarkup(province, provinceReading(province))}</span><span class="province-ticket-meta"><small>現在の${escapeHtml(present)}</small><b>${provinceVisited} / ${provinceShrines.length} 参拝</b></span></a>`;
+              return `<a class="prefecture-ticket" href="province.html?province=${encodeURIComponent(province)}"><span class="province-ticket-name">${rubyMarkup(province, provinceReading(province))}</span><span class="province-ticket-meta"><small>${escapeHtml(present)}</small><b>${provinceVisited} / ${provinceShrines.length} 参拝</b></span></a>`;
             }).join("")}
           </div>
         </section>
@@ -222,7 +222,7 @@
       <article class="folio-page">
         ${folioHeading({ number: "四", eyebrow: `${region.name}・旧国`, title: province, titleReading: provinceReading(province), intro: `${visited} / ${shrines.length}社を参拝。`, backHref: `region.html?region=${region.id}`, backLabel: region.name, seal: "国" })}
         <section class="folio-body">
-          <p class="current-place"><span>現在の鎮座地</span>${escapeHtml(present)}</p>
+          <p class="current-place"><span>鎮座地</span>${escapeHtml(present)}</p>
           <div class="pref-progress" aria-label="${visited}社参拝、全${shrines.length}社"><span style="width:${percent}%"></span><p><strong>${percent}%</strong> 参拝済み</p></div>
           <div class="card-grid folio-collection">${shrines.map(shrineCard).join("")}</div>
         </section>
@@ -242,7 +242,7 @@
           ${photoFrame(shrine)}
         </div>
         <div class="detail-side">
-          <p class="eyebrow"><span class="current-prefecture">現在の${escapeHtml(shrine.prefecture)}</span>・${rubyMarkup(shrine.province, shrine.provinceReading)}一の宮</p>
+          <p class="eyebrow"><span class="current-prefecture">${escapeHtml(shrine.prefecture)}</span>・${rubyMarkup(shrine.province, shrine.provinceReading)}一の宮</p>
           <h1>${rubyMarkup(shrine.name, shrine.nameReading)}</h1>
           ${shrine.deity ? `<div class="deity-list"><span>御祭神</span><p>${escapeHtml(shrine.deity)}</p>${shrine.deityReading ? `<small>読み：${escapeHtml(shrine.deityReading)}</small>` : ""}</div>` : ""}
           ${shrine.benefit ? `<p class="official-notice"><strong>御神徳</strong>${escapeHtml(shrine.benefit)}</p>` : ""}

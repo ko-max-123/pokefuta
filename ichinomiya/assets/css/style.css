@@ -59,7 +59,7 @@ img { max-width: 100%; }
 ruby { ruby-align: center; ruby-position: over; }
 rt {
   color: var(--muted);
-  font: 600 .42em/1.2 var(--sans);
+  font: 600 .34em/1.15 var(--sans);
   letter-spacing: .08em;
 }
 

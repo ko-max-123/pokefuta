@@ -1,6 +1,6 @@
 /* 全国一の宮巡拝会・一の宮巡拝会の公開情報をもとに作成 */
 window.ICHINOMIYA_DATA = {
-  "generatedAt": "2026-09-08T12:46:49.807Z",
+  "generatedAt": "2026-09-09T04:20:31.219Z",
   "source": "https://ichinomiya.gr.jp/",
   "currentListSource": "http://ichinomiya-junpai.jp/alllist/",
   "regions": [
@@ -120,6 +120,7 @@ window.ICHINOMIYA_DATA = {
     {
       "id": "001",
       "name": "賀茂別雷神社",
+      "nameReading": "かもわけいかづちじんじゃ",
       "province": "山城国",
       "postcode": "6038047",
       "address": "京都府京都市北区上賀茂本山 339",
@@ -134,11 +135,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "やましろのくに",
+      "deityReading": "かもわけいかづちのおおかみ"
     },
     {
       "id": "002",
       "name": "賀茂御祖神社",
+      "nameReading": "かもみおやじんじゃ",
       "province": "山城国",
       "postcode": "6060807",
       "address": "京都府京都市左京区下鴨泉川町 59",
@@ -153,11 +157,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "やましろのくに",
+      "deityReading": "たまよりひめのみこと・かもたけつぬみのみこと"
     },
     {
       "id": "003",
       "name": "大神神社",
+      "nameReading": "おおみわじんじゃ",
       "province": "大和国",
       "postcode": "6330001",
       "address": "奈良県桜井市三輪 1422",
@@ -172,11 +179,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "やまとのくに",
+      "deityReading": "おおものぬしのおおかみ・すくなひこなのかみ"
     },
     {
       "id": "004",
       "name": "枚岡神社",
+      "nameReading": "ひらおかじんじゃ",
       "province": "河内国",
       "postcode": "5798034",
       "address": "大阪府東大阪市出雲井町 7-16",
@@ -191,11 +201,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "かわちのくに",
+      "deityReading": "あめのこやねのみこと・ひめみかみ・ふつぬしのおおかみ・たけみかづちのおおかみ"
     },
     {
       "id": "005",
       "name": "大鳥大社",
+      "nameReading": "おおとりたいしゃ",
       "province": "和泉国",
       "postcode": "5938328",
       "address": "大阪府堺市鳳北町1-1-2",
@@ -210,11 +223,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いずみのくに",
+      "deityReading": "やまとたけるのみこと・おおとりのむらじのおやがみ"
     },
     {
       "id": "006",
       "name": "住吉大社",
+      "nameReading": "すみよしたいしゃ",
       "province": "摂津国",
       "postcode": "5580045",
       "address": "大阪府大阪市住吉区住吉 2-9-89",
@@ -229,11 +245,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "せっつのくに",
+      "deityReading": "そこつつのおのみこと・なかつつのおのみこと・うわつつのおのみこと・じんぐうこうごう"
     },
     {
       "id": "007",
       "name": "坐摩神社",
+      "nameReading": "いかすりじんじゃ",
       "province": "摂津国",
       "postcode": "5410056",
       "address": "大阪府大阪市中央区久太郎町4-3",
@@ -248,11 +267,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "せっつのくに",
+      "deityReading": "いくいのかみ・さくいのかみ・つながいのかみ・はひきのかみ・あすはのかみ"
     },
     {
       "id": "008",
       "name": "敢国神社",
+      "nameReading": "あえくにじんじゃ",
       "province": "伊賀国",
       "postcode": "5190003",
       "address": "三重県伊賀市一之宮877",
@@ -267,11 +289,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いがのくに",
+      "deityReading": "おおひこのみこと・すくなひこなのみこと・かなやまひめのみこと"
     },
     {
       "id": "009",
       "name": "椿大神社",
+      "nameReading": "つばきおおかみやしろ",
       "province": "伊勢国",
       "postcode": "5190315",
       "address": "三重県鈴鹿市山本町 1871",
@@ -286,11 +311,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いせのくに",
+      "deityReading": "さるたひこのおおかみ"
     },
     {
       "id": "010",
       "name": "都波岐奈加等神社",
+      "nameReading": "つばきなかとじんじゃ",
       "province": "伊勢国",
       "postcode": "5130031",
       "address": "三重県鈴鹿市一ノ宮町 1181",
@@ -305,11 +333,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いせのくに",
+      "deityReading": "さるたひこのおおかみ・なかつつのおのみこと・あめのくぬのみこと"
     },
     {
       "id": "011",
       "name": "伊雑宮",
+      "nameReading": "いざわのみや",
       "province": "志摩国",
       "postcode": "5170208",
       "address": "三重県志摩市磯部町上之郷374",
@@ -324,11 +355,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しまのくに",
+      "deityReading": "あまてらしますすめおおみかみのみたま"
     },
     {
       "id": "012",
       "name": "伊射波神社",
+      "nameReading": "いさわじんじゃ",
       "province": "志摩国",
       "postcode": "5170021",
       "address": "三重県鳥羽市安楽島町字加布良古 1020",
@@ -343,11 +377,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しまのくに",
+      "deityReading": "わかひるめのみこと・いざわとみのみこと・たまはしらやひめのみこと"
     },
     {
       "id": "013",
       "name": "真清田神社",
+      "nameReading": "ますみだじんじゃ",
       "province": "尾張国",
       "postcode": "4910043",
       "address": "愛知県一宮市真清田 1-2-1",
@@ -362,11 +399,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おわりのくに",
+      "deityReading": "あめのほあかりのみこと"
     },
     {
       "id": "014",
       "name": "大神神社",
+      "nameReading": "おおみわじんじゃ",
       "province": "尾張国",
       "postcode": "4910914",
       "address": "愛知県桜井市三輪 1422",
@@ -381,11 +421,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おわりのくに",
+      "deityReading": "おおものぬしのおおかみ・すくなひこなのかみ"
     },
     {
       "id": "015",
       "name": "砥鹿神社",
+      "nameReading": "とがじんじゃ",
       "province": "三河国",
       "postcode": "4411231",
       "address": "愛知県豊川市一宮町西垣内2",
@@ -400,11 +443,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "みかわのくに",
+      "deityReading": "おおなむちのみこと"
     },
     {
       "id": "016",
       "name": "小国神社",
+      "nameReading": "おくにじんじゃ",
       "province": "遠江国",
       "postcode": "4370226",
       "address": "静岡県周知郡森町一宮 3956-1",
@@ -419,11 +465,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "とおとうみのくに",
+      "deityReading": "おおなむちのみこと"
     },
     {
       "id": "017",
       "name": "事任八幡宮",
+      "nameReading": "ことのままはちまんぐう",
       "province": "遠江国",
       "postcode": "4360004",
       "address": "静岡県掛川市八坂642",
@@ -438,11 +487,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "とおとうみのくに",
+      "deityReading": "ことのまちひめのみこと・ほかさんばしら"
     },
     {
       "id": "018",
       "name": "浅間大社",
+      "nameReading": "せんげんたいしゃ",
       "province": "駿河国",
       "postcode": "4180067",
       "address": "静岡県富士宮市宮町 1-1",
@@ -457,11 +509,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "するがのくに",
+      "deityReading": "このはなのさくやびめのみこと"
     },
     {
       "id": "019",
       "name": "三嶋大社",
+      "nameReading": "みしまたいしゃ",
       "province": "伊豆国",
       "postcode": "4110035",
       "address": "静岡県三島市大宮町2-1-5",
@@ -476,11 +531,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いずのくに",
+      "deityReading": "おおやまつみのみこと・つみはやえことしろぬしのかみ"
     },
     {
       "id": "020",
       "name": "浅間神社",
+      "nameReading": "あさまじんじゃ",
       "province": "甲斐国",
       "postcode": "4050056",
       "address": "山梨県笛吹市一宮町一ノ宮 1684",
@@ -495,11 +553,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "かいのくに",
+      "deityReading": "このはなさくやひめのみこと"
     },
     {
       "id": "021",
       "name": "寒川神社",
+      "nameReading": "さむかわじんじゃ",
       "province": "相模国",
       "postcode": "2530111",
       "address": "神奈川県高座郡寒川町宮山 3916",
@@ -514,11 +575,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さがみのくに",
+      "deityReading": "さむかわひこのみこと・さむかわひめのみこと"
     },
     {
       "id": "022",
       "name": "鶴岡八幡宮",
+      "nameReading": "つるがおかはちまんぐう",
       "province": "相模国",
       "postcode": "2840005",
       "address": "神奈川県鎌倉市雪ノ下 2-1-31",
@@ -533,11 +597,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さがみのくに",
+      "deityReading": "おうじんてんのう・ひめがみ・じんぐうこうごう"
     },
     {
       "id": "023",
       "name": "氷川神社",
+      "nameReading": "ひかわじんじゃ",
       "province": "武蔵国",
       "postcode": "3300803",
       "address": "埼玉県さいたま市大宮区高鼻町1-407",
@@ -552,11 +619,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むさしのくに",
+      "deityReading": "すさのおのみこと・いなだひめのみこと・おおなむちのみこと"
     },
     {
       "id": "024",
       "name": "氷川女体神社",
+      "nameReading": "ひかわにょたいじんじゃ",
       "province": "武蔵国",
       "postcode": "3360916",
       "address": "埼玉県さいたま市緑区宮本 2-17-1",
@@ -571,11 +641,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むさしのくに",
+      "deityReading": "くしいなだひめのみこと・おおなむちのみこと・みほつひめのみこと"
     },
     {
       "id": "025",
       "name": "安房神社",
+      "nameReading": "あわじんじゃ",
       "province": "安房国",
       "postcode": "2940233",
       "address": "千葉県館山市大神宮 589",
@@ -590,11 +663,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "あわのくに",
+      "deityReading": "あめのふとだまのみこと・あめのとみのみこと"
     },
     {
       "id": "026",
       "name": "洲崎神社",
+      "nameReading": "すのさきじんじゃ",
       "province": "安房国",
       "postcode": "2940316",
       "address": "千葉県館山市洲崎 1697",
@@ -609,11 +685,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "あわのくに",
+      "deityReading": "あめのひりのめのみこと"
     },
     {
       "id": "027",
       "name": "玉前神社",
+      "nameReading": "たまさきじんじゃ",
       "province": "上総国",
       "postcode": "2994301",
       "address": "千葉県長生郡一宮町一宮 3048",
@@ -628,11 +707,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "かずさのくに",
+      "deityReading": "たまよりひめのみこと"
     },
     {
       "id": "028",
       "name": "香取神宮",
+      "nameReading": "かとりじんぐう",
       "province": "下総国",
       "postcode": "2870017",
       "address": "千葉県香取市香取 1697",
@@ -647,11 +729,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しもうさのくに",
+      "deityReading": "ふつぬしのおおかみ・たけみかづちのおおかみ"
     },
     {
       "id": "029",
       "name": "鹿島神宮",
+      "nameReading": "かしまじんぐう",
       "province": "常陸国",
       "postcode": "3140031",
       "address": "茨城県鹿嶋市宮中 2306-1",
@@ -666,11 +751,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひたちのくに",
+      "deityReading": "たけみかづちのおおかみ"
     },
     {
       "id": "030",
       "name": "建部大社",
+      "nameReading": "たけべたいしゃ",
       "province": "近江国",
       "postcode": "5202132",
       "address": "滋賀県大津市神領 1-16-1",
@@ -685,11 +773,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おうみのくに",
+      "deityReading": "やまとたけるのみこと"
     },
     {
       "id": "031",
       "name": "南宮大社",
+      "nameReading": "なんぐうたいしゃ",
       "province": "美濃国",
       "postcode": "5032124",
       "address": "岐阜県不破郡垂井町宮代 1734-1",
@@ -704,11 +795,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "みののくに",
+      "deityReading": "かなやまひこのみこと（みぬのみこと・ひこほほでみのみこと）"
     },
     {
       "id": "032",
       "name": "水無神社",
+      "nameReading": "みなしじんじゃ",
       "province": "飛騨国",
       "postcode": "5093512",
       "address": "岐阜県高山市一之宮町 5323",
@@ -723,11 +817,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひだのくに",
+      "deityReading": "みなしのおおかみ（みとしのかみ）"
     },
     {
       "id": "033",
       "name": "諏訪大社 上社",
+      "nameReading": "すわたいしゃかみしゃ",
       "province": "信濃国",
       "postcode": "3920015",
       "address": "長野県茅野市宮川2030",
@@ -742,11 +839,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しなののくに",
+      "deityReading": "やさかとめのかみ"
     },
     {
       "id": "034",
       "name": "諏訪大社 下社",
+      "nameReading": "すわたいしゃしもしゃ",
       "province": "信濃国",
       "postcode": "3930000",
       "address": "長野県諏訪郡下諏訪町193",
@@ -761,11 +861,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しなののくに",
+      "deityReading": "たけみなかたのかみ・やさかとめのかみ・やえことしろぬしのかみ"
     },
     {
       "id": "035",
       "name": "貫前神社",
+      "nameReading": "ぬきさきじんじゃ",
       "province": "上野国",
       "postcode": "3702452",
       "address": "群馬県富岡市一ノ宮 1535",
@@ -780,11 +883,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "こうずけのくに",
+      "deityReading": "ふつぬしのかみ・ひめのおおかみ"
     },
     {
       "id": "036",
       "name": "二荒山神社",
+      "nameReading": "ふたあらやまじんじゃ",
       "province": "下野国",
       "postcode": "3200026",
       "address": "栃木県宇都宮市馬場通り 1-1-1",
@@ -799,11 +905,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しもつけのくに",
+      "deityReading": "とよきいりひこのみこと"
     },
     {
       "id": "037",
       "name": "日光二荒山神社",
+      "nameReading": "にっこうふたらさんじんじゃ",
       "province": "下野国",
       "postcode": "3211431",
       "address": "栃木県日光市山内 2307",
@@ -818,11 +927,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "しもつけのくに",
+      "deityReading": "おおなむちのみこと・たごりひめのみこと・あじすきたかひこねのみこと"
     },
     {
       "id": "038",
       "name": "都々古別神社",
+      "nameReading": "つつこわけじんじゃ",
       "province": "陸奥国",
       "postcode": "9795672",
       "address": "福島県東白川郡棚倉町八槻大宮 224",
@@ -837,11 +949,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むつのくに",
+      "deityReading": "あじすきたかひこねのみこと・やまとたけるのみこと"
     },
     {
       "id": "039",
       "name": "都々古別神社",
+      "nameReading": "つつこわけじんじゃ",
       "province": "陸奥国",
       "postcode": "9796100",
       "address": "福島県東白川郡棚倉町八槻大宮 224",
@@ -856,11 +971,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むつのくに",
+      "deityReading": "あじすきたかひこねのみこと・やまとたけるのみこと"
     },
     {
       "id": "040",
       "name": "石都々古和気神社",
+      "nameReading": "いわつつこわけじんじゃ",
       "province": "陸奥国",
       "postcode": "9787558",
       "address": "福島県石川郡石川町字下泉150",
@@ -875,11 +993,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むつのくに",
+      "deityReading": "あじすきたかひこねのみこと・おおくにぬしのみこと"
     },
     {
       "id": "041",
       "name": "塩竃神社",
+      "nameReading": "しおがまじんじゃ",
       "province": "陸奥国",
       "postcode": "9850074",
       "address": "宮城県塩竈市一森山 1-1",
@@ -894,11 +1015,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "むつのくに",
+      "deityReading": "しおつちおじのかみ・たけみかづちのかみ・ふつぬしのかみ・しわひこのかみ"
     },
     {
       "id": "042",
       "name": "大物忌神社",
+      "nameReading": "おおものいみじんじゃ",
       "province": "出羽国",
       "postcode": "0428521",
       "address": "山形県飽海郡遊佐町上蕨岡字松ヶ岡51",
@@ -913,11 +1037,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "でわのくに",
+      "deityReading": "おおものいみのかみ"
     },
     {
       "id": "043",
       "name": "若狭彦神社･若狭姫神社",
+      "nameReading": "わかさひこじんじゃ・わかさひめじんじゃ",
       "province": "若狭国",
       "postcode": "9170243",
       "address": "福井県小浜市竜前",
@@ -932,11 +1059,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "わかさのくに",
+      "deityReading": "ひこほほでみのみこと・とよたまひめのみこと"
     },
     {
       "id": "044",
       "name": "気比神宮",
+      "nameReading": "けひじんぐう",
       "province": "越前国",
       "postcode": "9140075",
       "address": "福井県敦賀市曙町11-68",
@@ -951,11 +1081,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えちぜんのくに",
+      "deityReading": "いざさわけのみこと（しゅさいじん）・ちゅうあいてんのう（たらしなかつひこのみこと）・じんぐうこうごう（おきながたらしひめのみこと）・やまとたけるのみこと・おうじんてんのう（ほんだわけのみこと）・たまひめのみこと・たけのうちのすくねのみこと"
     },
     {
       "id": "045",
       "name": "白山比咩神社",
+      "nameReading": "しらやまひめじんじゃ",
       "province": "加賀国",
       "postcode": "9202114",
       "address": "石川県白山市三宮町ニ105-1",
@@ -970,11 +1103,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "かがのくに",
+      "deityReading": "くくりひめのかみ・いざなぎのみこと・いざなみのみこと"
     },
     {
       "id": "046",
       "name": "気多大社",
+      "nameReading": "けたたいしゃ",
       "province": "能登国",
       "postcode": "9250003",
       "address": "石川県羽咋市寺家町 ク 1",
@@ -989,11 +1125,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "のとのくに",
+      "deityReading": "おおなむちのみこと"
     },
     {
       "id": "047",
       "name": "高瀬神社",
+      "nameReading": "たかせじんじゃ",
       "province": "越中国",
       "postcode": "9320252",
       "address": "富山県南砺市高瀬 291",
@@ -1008,11 +1147,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えっちゅうのくに",
+      "deityReading": "おおなむちのみこと（あめのいくたまのみこと・いたけるのみこと）"
     },
     {
       "id": "048",
       "name": "気多神社",
+      "nameReading": "けたじんじゃ",
       "province": "越中国",
       "postcode": "9390116",
       "address": "富山県高岡市伏木一ノ宮字大平2063",
@@ -1027,11 +1169,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えっちゅうのくに",
+      "deityReading": "おおなむちのみこと・ぬなかわひめのみこと"
     },
     {
       "id": "049",
       "name": "雄山神社 前立社壇",
+      "nameReading": "おやまじんじゃまえたてしゃだん",
       "province": "越中国",
       "postcode": "9301368",
       "address": "富山県中新川郡立山町岩峅寺 1",
@@ -1046,11 +1191,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えっちゅうのくに",
+      "deityReading": "いざなぎのかみ・あめのたぢからおのかみ"
     },
     {
       "id": "050",
       "name": "射水神社",
+      "nameReading": "いみずじんじゃ",
       "province": "越中国",
       "postcode": "9330044",
       "address": "富山県高岡市古城1-1",
@@ -1065,11 +1213,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えっちゅうのくに",
+      "deityReading": "ふたがみのかみ（ににぎのみこと）"
     },
     {
       "id": "051",
       "name": "弥彦神社",
+      "nameReading": "やひこじんじゃ",
       "province": "越後国",
       "postcode": "9590323",
       "address": "新潟県西蒲原郡弥彦村弥彦2887-2",
@@ -1084,11 +1235,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えちごのくに",
+      "deityReading": "あめのかごやまのみこと"
     },
     {
       "id": "052",
       "name": "居多神社",
+      "nameReading": "こたじんじゃ",
       "province": "越後国",
       "postcode": "9420081",
       "address": "新潟県上越市五智 6-1-11",
@@ -1103,11 +1257,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "えちごのくに",
+      "deityReading": "おおくにぬしのかみ（ぬなかわひめのみこと・たけみなかたのみこと）"
     },
     {
       "id": "053",
       "name": "度津神社",
+      "nameReading": "わたつじんじゃ",
       "province": "佐渡国",
       "postcode": "9520503",
       "address": "新潟県佐渡市羽茂飯岡 550-4",
@@ -1122,11 +1279,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さどのくに",
+      "deityReading": "いたけるのみこと"
     },
     {
       "id": "054",
       "name": "出雲大神宮",
+      "nameReading": "いずもだいじんぐう",
       "province": "丹波国",
       "postcode": "",
       "address": "京都府亀岡市千歳町千歳出雲",
@@ -1141,11 +1301,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "たんばのくに",
+      "deityReading": "おおくにぬしのみこと・みほつひめのみこと"
     },
     {
       "id": "055",
       "name": "篭神社",
+      "nameReading": "このじんじゃ",
       "province": "丹後国",
       "postcode": "6292242",
       "address": "京都府宮津市大垣 430",
@@ -1160,11 +1323,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "たんごのくに",
+      "deityReading": "ひこほあかりのみこと（とようけのおおかみ・あまてらすおおかみ・わたつみのかみ・あめのみくまりのかみ）"
     },
     {
       "id": "056",
       "name": "出石神社",
+      "nameReading": "いずしじんじゃ",
       "province": "但馬国",
       "postcode": "6680204",
       "address": "兵庫県豊岡市出石町宮内 99",
@@ -1179,11 +1345,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "たじまのくに",
+      "deityReading": "あめのひぼこのみこと・いずしやまえのおおかみ"
     },
     {
       "id": "057",
       "name": "粟鹿神社",
+      "nameReading": "あわがじんじゃ",
       "province": "但馬国",
       "postcode": "6695125",
       "address": "兵庫県朝来市山東町粟鹿 2152",
@@ -1198,11 +1367,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "たじまのくに",
+      "deityReading": "ひこいますのみこのみこと・あめのみさりのみこと・ひこほほでみのみこと・とよたまのみこと"
     },
     {
       "id": "058",
       "name": "宇倍神社",
+      "nameReading": "うべじんじゃ",
       "province": "因幡国",
       "postcode": "6800151",
       "address": "鳥取県鳥取市国府町宮下 651",
@@ -1217,11 +1389,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いなばのくに",
+      "deityReading": "たけのうちのすくねのみこと"
     },
     {
       "id": "059",
       "name": "倭文神社",
+      "nameReading": "しとりじんじゃ",
       "province": "伯耆国",
       "postcode": "6890707",
       "address": "鳥取県東伯郡湯梨浜町宮内 754",
@@ -1236,11 +1411,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ほうきのくに",
+      "deityReading": "たけはづちのみこと・したてるひめのみこと"
     },
     {
       "id": "060",
       "name": "出雲大社",
+      "nameReading": "いづもおおやしろ",
       "province": "出雲国",
       "postcode": "6990701",
       "address": "島根県出雲市大社町杵築東195",
@@ -1255,11 +1433,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いずものくに",
+      "deityReading": "おおくにぬしのおおかみ"
     },
     {
       "id": "061",
       "name": "熊野大社",
+      "nameReading": "くまのたいしゃ",
       "province": "出雲国",
       "postcode": "6902104",
       "address": "島根県松江市八雲町熊野 2451",
@@ -1274,11 +1455,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いずものくに",
+      "deityReading": "くまののおおかみ・くしみけぬのみこと"
     },
     {
       "id": "062",
       "name": "物部神社",
+      "nameReading": "もののべじんじゃ",
       "province": "石見国",
       "postcode": "6940011",
       "address": "島根県大田市川合町川合 1545",
@@ -1293,11 +1477,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いわみのくに",
+      "deityReading": "うましまぢのみこと"
     },
     {
       "id": "063",
       "name": "水若酢神社",
+      "nameReading": "みずわかすじんじゃ",
       "province": "隠岐国一の宮（島後）",
       "postcode": "6850311",
       "address": "島根県隠岐郡隠岐の島町 723",
@@ -1312,11 +1499,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おきのくにいちのみや（どうご）",
+      "deityReading": "みずわかすのみこと"
     },
     {
       "id": "064",
       "name": "由良比女神社",
+      "nameReading": "ゆらひめじんじゃ",
       "province": "隠岐国一の宮（島前）",
       "postcode": "6840211",
       "address": "島根県隠岐郡西ノ島町浦郷922",
@@ -1331,11 +1521,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おきのくにいちのみや（どうぜん）",
+      "deityReading": "ゆらひめのみこと"
     },
     {
       "id": "065",
       "name": "伊和神社",
+      "nameReading": "いわじんじゃ",
       "province": "播磨国",
       "postcode": "6714133",
       "address": "兵庫県宍粟市一宮町須行名 407",
@@ -1350,11 +1543,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "はりまのくに",
+      "deityReading": "おおなむちのかみ"
     },
     {
       "id": "066",
       "name": "中山神社",
+      "nameReading": "なかやまじんじゃ",
       "province": "美作国",
       "postcode": "7080815",
       "address": "岡山県津山市一宮 695",
@@ -1369,11 +1565,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "みまさかのくに",
+      "deityReading": "かがみつくりのかみ"
     },
     {
       "id": "067",
       "name": "吉備津彦神社",
+      "nameReading": "きびつひこじんじゃ",
       "province": "備前国",
       "postcode": "7011211",
       "address": "岡山県岡山市北区一宮 1043",
@@ -1388,11 +1587,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "びぜんのくに",
+      "deityReading": "おおきびつひこのみこと"
     },
     {
       "id": "068",
       "name": "石上布都魂神社",
+      "nameReading": "いそのかみふつみたまじんじゃ",
       "province": "備前国",
       "postcode": "7012445",
       "address": "岡山県赤磐市石上 1448",
@@ -1407,11 +1609,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "びぜんのくに",
+      "deityReading": "すさのおのみこと"
     },
     {
       "id": "069",
       "name": "吉備津神社",
+      "nameReading": "きびつじんじゃ",
       "province": "備中国",
       "postcode": "7011341",
       "address": "岡山県岡山市北区吉備津 931",
@@ -1426,11 +1631,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "びっちゅうのくに",
+      "deityReading": "おおきびつひこのおおかみ"
     },
     {
       "id": "070",
       "name": "吉備津神社",
+      "nameReading": "きびつじんじゃ",
       "province": "備後国",
       "postcode": "7293104",
       "address": "広島県岡山市北区吉備津 931",
@@ -1445,11 +1653,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "びんごのくに",
+      "deityReading": "おおきびつひこのおおかみ"
     },
     {
       "id": "071",
       "name": "素盞鳴神社",
+      "nameReading": "すさのおじんじゃ",
       "province": "備後国",
       "postcode": "7293101",
       "address": "広島県福山市新市町戸手 1-1",
@@ -1464,11 +1675,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "びんごのくに",
+      "deityReading": "すさのおのみこと"
     },
     {
       "id": "072",
       "name": "厳島神社",
+      "nameReading": "いつくしまじんじゃ",
       "province": "安芸国",
       "postcode": "7390500",
       "address": "広島県廿日市市宮島町 1-1",
@@ -1483,11 +1697,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "あきのくに",
+      "deityReading": "いちきしまひめのみこと・たごりひめのみこと・たぎつひめのみこと"
     },
     {
       "id": "073",
       "name": "玉祖神社",
+      "nameReading": "たまのおやじんじゃ",
       "province": "周防国",
       "postcode": "7470065",
       "address": "山口県防府市大崎 1690",
@@ -1502,30 +1719,36 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "すおうのくに",
+      "deityReading": "たまのおやのみこと"
     },
     {
       "id": "074",
       "name": "住吉神社",
+      "nameReading": "すみよしじんじゃ",
       "province": "長門国",
-      "postcode": "7510804",
-      "address": "福岡県福岡市博多区住吉3-1-51",
+      "postcode": "7510805",
+      "address": "山口県下関市一の宮住吉1-11-1",
       "source": "https://ichinomiya.gr.jp/074.html",
-      "prefecture": "福岡県",
-      "region": "kyushu",
-      "access": "JR博多駅より徒歩約8分 092-291-2670",
-      "deity": "住吉三神・天照皇大神・神功皇后",
-      "benefit": "",
-      "currentSource": "http://ichinomiya-junpai.jp/alllist/%e4%b9%9d%e5%b7%9e%e3%83%bb%e6%b2%96%e7%b8%84/%e4%bd%8f%e5%90%89%e7%a5%9e%e7%a4%be/",
-      "map": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%A6%8F%E5%B2%A1%E5%B8%82%E5%8D%9A%E5%A4%9A%E5%8C%BA%E4%BD%8F%E5%90%893-1-51",
+      "prefecture": "山口県",
+      "region": "chugoku",
+      "access": "",
+      "deity": "表筒男命・中筒男命・底筒男命・応神天皇・武内宿禰命・神功皇后・建御名方命",
+      "benefit": "お祓い・交通安全・開運・産業発展・長寿",
+      "currentSource": "https://www.jinja-net.jp/jinjashi-kensaku/jsearch3jinjashi.php?jinjya=6971",
+      "map": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E5%B1%B1%E5%8F%A3%E7%9C%8C%E4%B8%8B%E9%96%A2%E5%B8%82%E4%B8%80%E3%81%AE%E5%AE%AE%E4%BD%8F%E5%90%891-11-1",
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ながとのくに",
+      "deityReading": "うわつつのおのみこと・なかつつのおのみこと・そこつつのおのみこと・おうじんてんのう・たけのうちのすくねのみこと・じんぐうこうごう・たけみなかたのみこと"
     },
     {
       "id": "075",
       "name": "日前神宮国懸神宮",
+      "nameReading": "ひのくまじんぐう・くにかかすじんぐう",
       "province": "紀伊国",
       "postcode": "6408322",
       "address": "和歌山県和歌山市秋月",
@@ -1540,11 +1763,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "きいのくに",
+      "deityReading": "ひのくまのおおかみ・くにかかすのおおかみ"
     },
     {
       "id": "076",
       "name": "伊太祁曽神社",
+      "nameReading": "いたきそじんじゃ",
       "province": "紀伊国",
       "postcode": "6400361",
       "address": "和歌山県和歌山市伊太祈曽 558",
@@ -1559,11 +1785,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "きいのくに",
+      "deityReading": "いたけるのみこと（おおやつひめのみこと・つまつひめのみこと）"
     },
     {
       "id": "077",
       "name": "丹生都比売神社",
+      "nameReading": "にうつひめじんじゃ",
       "province": "紀伊国",
       "postcode": "6497100",
       "address": "和歌山県伊都郡かつらぎ町上天野 230",
@@ -1578,11 +1807,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "きいのくに",
+      "deityReading": "にうつひめのおおかみ（わかひるめのかみ）ほかさんばしら"
     },
     {
       "id": "078",
       "name": "伊弉諾神宮",
+      "nameReading": "いざなぎじんぐう",
       "province": "淡路国",
       "postcode": "6561521",
       "address": "兵庫県淡路市多賀 740",
@@ -1597,11 +1829,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "あわじのくに",
+      "deityReading": "いざなぎのおおかみ・いざなみのおおかみ"
     },
     {
       "id": "079",
       "name": "大麻比古神社",
+      "nameReading": "おおあさひこじんじゃ",
       "province": "阿波国",
       "postcode": "7790232",
       "address": "徳島県鳴門市大麻町板東字広塚 13",
@@ -1616,11 +1851,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "あわのくに",
+      "deityReading": "おおあさひこのおおかみ・さるたひこのおおかみ"
     },
     {
       "id": "080",
       "name": "田村神社",
+      "nameReading": "たむらじんじゃ",
       "province": "讃岐国",
       "postcode": "7618084",
       "address": "香川県高松市一宮町 286",
@@ -1635,11 +1873,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さぬきのくに",
+      "deityReading": "やまとととひももそひめのみこと"
     },
     {
       "id": "081",
       "name": "大山祇神社",
+      "nameReading": "おおやまづみじんじゃ",
       "province": "伊予国",
       "postcode": "7941304",
       "address": "愛媛県今治市大三島町宮浦 3327",
@@ -1654,11 +1895,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いよのくに",
+      "deityReading": "おおやまづみのかみ"
     },
     {
       "id": "082",
       "name": "土佐神社",
+      "nameReading": "とさじんじゃ",
       "province": "土佐国",
       "postcode": "7808130",
       "address": "高知県高知市一宮2499",
@@ -1673,11 +1917,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "とさのくに",
+      "deityReading": "あじすきたかひこねのかみ・ひとことぬしのかみ"
     },
     {
       "id": "083",
       "name": "筥崎宮",
+      "nameReading": "はこざきぐう",
       "province": "筑前国",
       "postcode": "",
       "address": "福岡県福岡市東区箱崎1-22-1",
@@ -1692,11 +1939,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ちくぜんのくに",
+      "deityReading": "おうじんてんのう・じんぐうこうごう・たまよりひめのみこと"
     },
     {
       "id": "084",
       "name": "住吉神社",
+      "nameReading": "すみよしじんじゃ",
       "province": "筑前国",
       "postcode": "8120018",
       "address": "福岡県福岡市博多区住吉3-1-51",
@@ -1711,11 +1961,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ちくぜんのくに",
+      "deityReading": "すみよしさんじん・あまてらすすめおおかみ・じんぐうこうごう"
     },
     {
       "id": "085",
       "name": "高良大社",
+      "nameReading": "こうらたいしゃ",
       "province": "筑後国",
       "postcode": "8300851",
       "address": "福岡県久留米市御井町1番地",
@@ -1730,11 +1983,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ちくごのくに",
+      "deityReading": "こうらたまたれのみこと・はちまんのおおかみ・すみよしのおおかみ"
     },
     {
       "id": "086",
       "name": "宇佐神宮",
+      "nameReading": "うさじんぐう",
       "province": "豊前国",
       "postcode": "8720102",
       "address": "大分県宇佐市南宇佐 2859",
@@ -1749,11 +2005,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ぶぜんのくに",
+      "deityReading": "はちまんのおおかみ・ひめのおおかみ・じんぐうこうごう"
     },
     {
       "id": "087",
       "name": "西寒多神社",
+      "nameReading": "ささむたじんじゃ",
       "province": "豊後国",
       "postcode": "8701123",
       "address": "大分県大分市大字寒田 1644",
@@ -1768,11 +2027,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ぶんごのくに",
+      "deityReading": "ささむたのおおかみ"
     },
     {
       "id": "088",
       "name": "柞原八幡宮",
+      "nameReading": "ゆすはらはちまんぐう",
       "province": "豊後国",
       "postcode": "",
       "address": "大分県大分市大字八幡 987",
@@ -1787,11 +2049,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ぶんごのくに",
+      "deityReading": "おうじんてんのう・ちゅうあいてんのう・じんぐうこうごう"
     },
     {
       "id": "089",
       "name": "與止日女神社",
+      "nameReading": "よどひめじんじゃ",
       "province": "肥前国",
       "postcode": "8400214",
       "address": "佐賀県佐賀市大和町大字川上1ｰ1",
@@ -1806,11 +2071,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひぜんのくに",
+      "deityReading": "よどひめのみこと"
     },
     {
       "id": "090",
       "name": "千栗八幡宮",
+      "nameReading": "ちりくはちまんぐう",
       "province": "肥前国",
       "postcode": "8490100",
       "address": "佐賀県三養基郡みやき町大字白壁千栗2403",
@@ -1825,11 +2093,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひぜんのくに",
+      "deityReading": "おうじんてんのう・ちゅうあいてんのう・じんぐうこうごう"
     },
     {
       "id": "091",
       "name": "阿蘇神社",
+      "nameReading": "あそじんじゃ",
       "province": "肥後国",
       "postcode": "8692612",
       "address": "熊本県阿蘇市一の宮町宮地 3083-1",
@@ -1844,11 +2115,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひごのくに",
+      "deityReading": "たけいわたつのみこと・あそつひめのみこと"
     },
     {
       "id": "092",
       "name": "都農神社",
+      "nameReading": "つのじんじゃ",
       "province": "日向国",
       "postcode": "8891212",
       "address": "宮崎県児湯郡都農町大字川北 13294",
@@ -1863,12 +2137,15 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ひゅうがのくに",
+      "deityReading": "おおなむちのみこと"
     },
     {
       "id": "093",
       "name": "鹿児島神宮",
-      "province": "大隈国",
+      "nameReading": "かごしまじんぐう",
+      "province": "大隅国",
       "postcode": "8995116",
       "address": "鹿児島県霧島市隼人町内 2496",
       "source": "https://ichinomiya.gr.jp/093.html",
@@ -1882,11 +2159,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "おおすみのくに",
+      "deityReading": "あまつひだかひこほほでみのみこと・とよたまひめのみこと"
     },
     {
       "id": "094",
       "name": "新田神社",
+      "nameReading": "にったじんじゃ",
       "province": "薩摩国",
       "postcode": "8950065",
       "address": "鹿児島県薩摩川内市宮内町 1935-2",
@@ -1901,11 +2181,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さつまのくに",
+      "deityReading": "あまつひだかひこほのににぎのみこと"
     },
     {
       "id": "095",
       "name": "枚聞神社",
+      "nameReading": "ひらききじんじゃ",
       "province": "薩摩国",
       "postcode": "8910603",
       "address": "鹿児島県指宿市開聞十町 1366",
@@ -1920,11 +2203,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "さつまのくに",
+      "deityReading": "おおひるめのむちのみこと"
     },
     {
       "id": "096",
       "name": "天手長男神社",
+      "nameReading": "あまのたながおじんじゃ",
       "province": "壱岐国",
       "postcode": "8115117",
       "address": "長崎県壱岐市郷ノ浦町田中触 730",
@@ -1939,11 +2225,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いきのくに",
+      "deityReading": "あめのおしほみみのみこと・あめのたぢからおのみこと"
     },
     {
       "id": "097",
       "name": "海神神社",
+      "nameReading": "わだつみじんじゃ",
       "province": "対馬国",
       "postcode": "8171303",
       "address": "長崎県対馬市峰町木坂 247",
@@ -1958,11 +2247,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "つしまのくに",
+      "deityReading": "とよたまひめのみこと・うがやふきあえずのみこと"
     },
     {
       "id": "098",
       "name": "北海道神宮",
+      "nameReading": "ほっかいどうじんぐう",
       "province": "北海道",
       "postcode": "0640959",
       "address": "北海道札幌市中央区宮ヶ丘 474",
@@ -1977,11 +2269,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ほっかいどう",
+      "deityReading": "おおくにたまのかみ・おおなむちのかみ"
     },
     {
       "id": "099",
       "name": "岩木山神社",
+      "nameReading": "いわきさんじんじゃ",
       "province": "津軽国",
       "postcode": "0361343",
       "address": "青森県弘前市百沢字寺沢 27",
@@ -1996,11 +2291,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "つがるのくに",
+      "deityReading": "うつしくにたまのかみ・たつひひめのかみ"
     },
     {
       "id": "100",
       "name": "駒形神社",
+      "nameReading": "こまがたじんじゃ",
       "province": "陸中国",
       "postcode": "0230857",
       "address": "岩手県奥州市水沢区中上野町 1-83",
@@ -2015,11 +2313,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "りくちゅうのくに",
+      "deityReading": "こまがたのおおかみ"
     },
     {
       "id": "101",
       "name": "伊佐須美神社",
+      "nameReading": "いさすみじんじゃ",
       "province": "岩代国",
       "postcode": "9696263",
       "address": "福島県大沼郡会津美里町宮林甲 4377",
@@ -2034,11 +2335,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "いわしろのくに",
+      "deityReading": "いざなぎのみこと・いざなみのみこと・おおびこのみこと・たけぬなかわわけのみこと"
     },
     {
       "id": "102",
       "name": "秩父神社",
+      "nameReading": "ちちぶじんじゃ",
       "province": "知知夫国",
       "postcode": "3680041",
       "address": "埼玉県秩父市番場町 1-1",
@@ -2053,11 +2357,14 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "ちちぶのくに",
+      "deityReading": "やごころおもいかねのみこと・ちちぶひこのみこと・あめのみなかぬしのかみ"
     },
     {
       "id": "103",
       "name": "波上宮",
+      "nameReading": "なみのうえぐう",
       "province": "琉球国",
       "postcode": "9000031",
       "address": "沖縄県那覇市若狭 1-25-11",
@@ -2072,7 +2379,9 @@ window.ICHINOMIYA_DATA = {
       "photo": "",
       "visited": false,
       "worshipped": "",
-      "memo": ""
+      "memo": "",
+      "provinceReading": "りゅうきゅうのくに",
+      "deityReading": "いざなみのみこと・はやたまおのみこと・ことさかおのみこと"
     }
   ]
 };

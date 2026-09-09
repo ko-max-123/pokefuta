@@ -587,7 +587,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
     memo: ""
   },
 
-  // 福岡県｜長門国｜住吉神社（ID: 074）
+  // 山口県｜長門国｜住吉神社（ID: 074）
   "074": {
     photo: "",
     visited: false,
@@ -739,7 +739,7 @@ window.MY_ICHINOMIYA_COLLECTION = {
     memo: ""
   },
 
-  // 鹿児島県｜大隈国｜鹿児島神宮（ID: 093）
+  // 鹿児島県｜大隅国｜鹿児島神宮（ID: 093）
   "093": {
     photo: "",
     visited: false,

@@ -56,6 +56,12 @@ a { color: inherit; }
 button, input, select { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 img { max-width: 100%; }
+ruby { ruby-align: center; ruby-position: over; }
+rt {
+  color: var(--muted);
+  font: 600 .42em/1.2 var(--sans);
+  letter-spacing: .08em;
+}
 
 .skip-link {
   position: fixed;
@@ -899,8 +905,36 @@ body[data-page="cover"] main {
 .prefecture-ticket::before, .prefecture-ticket::after { content: ""; position: absolute; width: 9px; height: 9px; top: 50%; background: var(--paper); border-radius: 50%; transform: translateY(-50%); }
 .prefecture-ticket::before { left: -5px; }
 .prefecture-ticket::after { right: -5px; }
-.prefecture-ticket span { color: var(--red); font: 700 .7rem var(--sans); }
+.province-ticket-name { color: var(--ink); font: 700 1rem/1.7 var(--serif); }
+.province-ticket-meta {
+  display: grid;
+  flex: 0 0 auto;
+  gap: .12rem;
+  margin-left: .75rem;
+  color: var(--red);
+  text-align: right;
+  font: 700 .66rem/1.4 var(--sans);
+}
+.province-ticket-meta small { color: var(--muted); font: 600 .6rem/1.4 var(--sans); }
+.province-ticket-meta b { font: inherit; }
 .prefecture-ticket.is-empty { opacity: .62; }
+
+.current-place {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .75rem;
+  margin: 0 0 1.4rem;
+  padding: .55rem .85rem;
+  color: var(--ink);
+  background: rgba(255,251,240,.44);
+  border-left: 3px solid var(--red);
+  font: 700 .92rem var(--serif);
+}
+.current-place span {
+  color: var(--red);
+  font: 700 .62rem var(--sans);
+  letter-spacing: .12em;
+}
 
 .region-ledger { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); }
 .region-ledger div { padding: 1.25rem; border-right: 1px solid var(--line); }
@@ -944,12 +978,25 @@ body[data-page="cover"] main {
   border-bottom: 1px solid rgba(41,75,85,.25);
   font: 700 .82rem/1.8 var(--serif);
 }
+.deity-list p { margin: 0; }
 .deity-list span {
   display: block;
   margin-bottom: .18rem;
   color: var(--red);
   font-size: .64rem;
   letter-spacing: .2em;
+}
+.deity-list small {
+  display: block;
+  margin-top: .4rem;
+  color: var(--muted);
+  font: 600 .68rem/1.7 var(--sans);
+}
+.current-prefecture {
+  display: inline-block;
+  padding: .1rem .35rem;
+  color: var(--red-dark);
+  background: rgba(150,53,43,.08);
 }
 .official-notice strong {
   display: block;
@@ -1166,14 +1213,17 @@ body[data-site="ichinomiya"] .cover-binding {
   .spot-address { font-size: .88rem; line-height: 1.75; }
   .mini-stamp { font-size: .74rem; }
 
-  .prefecture-ticket { min-height: 68px; font-size: 1rem; }
-  .prefecture-ticket span { font-size: .8rem; }
+  .prefecture-ticket { min-height: 76px; font-size: 1rem; }
+  .province-ticket-name { font-size: 1.05rem; }
+  .province-ticket-meta { font-size: .76rem; }
+  .province-ticket-meta small { font-size: .7rem; }
   .crumbs { font-size: .82rem; }
 
   .location-label { font-size: .78rem; }
   .location-address { font-size: 1rem; }
   .deity-list { font-size: .9rem; }
   .deity-list span { font-size: .76rem; }
+  .deity-list small { font-size: .78rem; }
   .access-note { font-size: .8rem; }
   .map-link { min-height: 44px; align-items: center; font-size: .9rem; }
   .source-note { font-size: .78rem; line-height: 1.85; }

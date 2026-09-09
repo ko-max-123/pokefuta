@@ -34,6 +34,19 @@
       .replaceAll("'", "&#039;");
   }
 
+  function rubyMarkup(value, reading) {
+    if (!reading) return escapeHtml(value);
+    return `<ruby>${escapeHtml(value)}<rp>（</rp><rt>${escapeHtml(reading)}</rt><rp>）</rp></ruby>`;
+  }
+
+  function provinceReading(province) {
+    return data.shrines.find((shrine) => shrine.province === province)?.provinceReading || "";
+  }
+
+  function currentPrefectures(shrines) {
+    return [...new Set(shrines.map((shrine) => shrine.prefecture).filter(Boolean))];
+  }
+
   function renderHeader() {
     const header = document.querySelector("[data-site-header]");
     if (header) header.hidden = true;
@@ -48,7 +61,7 @@
     return `<div id="top" class="page-shell ${extraClass}"><span class="binding" aria-hidden="true"></span>${content}</div>`;
   }
 
-  function folioHeading({ number, eyebrow, title, intro, backHref, backLabel, seal }) {
+  function folioHeading({ number, eyebrow, title, titleReading = "", intro, backHref, backLabel, seal }) {
     return `
       <header class="folio-head">
         <a class="folio-back" href="${backHref}">← ${escapeHtml(backLabel)}</a>
@@ -56,7 +69,7 @@
           <div>
             <p class="folio-number">第 ${escapeHtml(number)} 頁</p>
             <p class="eyebrow">${escapeHtml(eyebrow)}</p>
-            <h1 class="page-title">${escapeHtml(title)}</h1>
+            <h1 class="page-title">${rubyMarkup(title, titleReading)}</h1>
             <p class="page-intro">${escapeHtml(intro)}</p>
           </div>
           <span class="big-seal" aria-hidden="true">${escapeHtml(seal)}</span>
@@ -85,8 +98,8 @@
         <a href="shrines/${shrine.id}.html">
           ${photoFrame(shrine)}
           <div class="spot-card-body">
-            <p class="kicker">${escapeHtml(shrine.prefecture)}・${escapeHtml(shrine.province)}</p>
-            <h3>${escapeHtml(shrine.name)}</h3>
+            <p class="kicker">現在の${escapeHtml(shrine.prefecture)}・${rubyMarkup(shrine.province, shrine.provinceReading)}</p>
+            <h3>${rubyMarkup(shrine.name, shrine.nameReading)}</h3>
             <p class="spot-address">${escapeHtml(shrine.address)}</p>
           </div>
         </a>
@@ -188,7 +201,8 @@
             ${provinces.map((province) => {
               const provinceShrines = shrines.filter((shrine) => shrine.province === province);
               const provinceVisited = provinceShrines.filter(isVisited).length;
-              return `<a class="prefecture-ticket" href="province.html?province=${encodeURIComponent(province)}">${escapeHtml(province)}<span>${provinceVisited} / ${provinceShrines.length} 参拝</span></a>`;
+              const present = currentPrefectures(provinceShrines).join("・");
+              return `<a class="prefecture-ticket" href="province.html?province=${encodeURIComponent(province)}"><span class="province-ticket-name">${rubyMarkup(province, provinceReading(province))}</span><span class="province-ticket-meta"><small>現在の${escapeHtml(present)}</small><b>${provinceVisited} / ${provinceShrines.length} 参拝</b></span></a>`;
             }).join("")}
           </div>
         </section>
@@ -196,17 +210,19 @@
   }
 
   function renderProvince() {
-    const requested = query.get("province");
+    const requested = query.get("province")?.replace("大隈国", "大隅国");
     const province = data.shrines.some((shrine) => shrine.province === requested) ? requested : data.shrines[0].province;
     const shrines = data.shrines.filter((shrine) => shrine.province === province);
     const region = data.regions.find((item) => item.id === shrines[0].region);
     const visited = shrines.filter(isVisited).length;
     const percent = Math.round((visited / shrines.length) * 100);
+    const present = currentPrefectures(shrines).join("・");
     document.title = `${province}の一宮｜一宮巡礼帖`;
     root.innerHTML = pageShell(`
       <article class="folio-page">
-        ${folioHeading({ number: "四", eyebrow: `${region.name}・旧国`, title: province, intro: `${visited} / ${shrines.length}社を参拝。`, backHref: `region.html?region=${region.id}`, backLabel: region.name, seal: "国" })}
+        ${folioHeading({ number: "四", eyebrow: `${region.name}・旧国`, title: province, titleReading: provinceReading(province), intro: `${visited} / ${shrines.length}社を参拝。`, backHref: `region.html?region=${region.id}`, backLabel: region.name, seal: "国" })}
         <section class="folio-body">
+          <p class="current-place"><span>現在の鎮座地</span>${escapeHtml(present)}</p>
           <div class="pref-progress" aria-label="${visited}社参拝、全${shrines.length}社"><span style="width:${percent}%"></span><p><strong>${percent}%</strong> 参拝済み</p></div>
           <div class="card-grid folio-collection">${shrines.map(shrineCard).join("")}</div>
         </section>
@@ -221,14 +237,14 @@
     root.innerHTML = pageShell(`
       <article class="spot-detail">
         <div class="detail-photo">
-          <a class="folio-back detail-back" href="province.html?province=${encodeURIComponent(shrine.province)}">← ${escapeHtml(shrine.province)}</a>
+          <a class="folio-back detail-back" href="province.html?province=${encodeURIComponent(shrine.province)}">← ${rubyMarkup(shrine.province, shrine.provinceReading)}</a>
           <span class="photo-tape" aria-hidden="true"></span>
           ${photoFrame(shrine)}
         </div>
         <div class="detail-side">
-          <p class="eyebrow">${escapeHtml(shrine.prefecture)}・${escapeHtml(shrine.province)}一の宮</p>
-          <h1>${escapeHtml(shrine.name)}</h1>
-          ${shrine.deity ? `<p class="deity-list"><span>御祭神</span>${escapeHtml(shrine.deity)}</p>` : ""}
+          <p class="eyebrow"><span class="current-prefecture">現在の${escapeHtml(shrine.prefecture)}</span>・${rubyMarkup(shrine.province, shrine.provinceReading)}一の宮</p>
+          <h1>${rubyMarkup(shrine.name, shrine.nameReading)}</h1>
+          ${shrine.deity ? `<div class="deity-list"><span>御祭神</span><p>${escapeHtml(shrine.deity)}</p>${shrine.deityReading ? `<small>読み：${escapeHtml(shrine.deityReading)}</small>` : ""}</div>` : ""}
           ${shrine.benefit ? `<p class="official-notice"><strong>御神徳</strong>${escapeHtml(shrine.benefit)}</p>` : ""}
           ${shrine.memo ? `<p class="detail-note">${escapeHtml(shrine.memo)}</p>` : ""}
           <div class="location-box">

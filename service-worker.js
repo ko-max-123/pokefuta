@@ -62,7 +62,7 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-async function networkFirst(request) {
+async function networkFirst(request, useOfflinePage = false) {
   const cache = await caches.open(CACHE_NAME);
 
   try {
@@ -70,21 +70,13 @@ async function networkFirst(request) {
     if (response.ok) await cache.put(request, response.clone());
     return response;
   } catch {
-    return cache.match(request, { ignoreSearch: request.mode === "navigate" })
-      || cache.match(new URL("./offline.html", self.registration.scope).toString());
+    const cached = await cache.match(request, { ignoreSearch: request.mode === "navigate" });
+    if (cached) return cached;
+    if (useOfflinePage) {
+      return cache.match(new URL("./offline.html", self.registration.scope).toString());
+    }
+    return new Response("Offline", { status: 503, statusText: "Offline" });
   }
-}
-
-async function cacheFirst(request) {
-  const cached = await caches.match(request);
-  if (cached) return cached;
-
-  const response = await fetch(request);
-  if (response.ok) {
-    const cache = await caches.open(CACHE_NAME);
-    await cache.put(request, response.clone());
-  }
-  return response;
 }
 
 self.addEventListener("fetch", (event) => {
@@ -94,10 +86,5 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin || !url.href.startsWith(self.registration.scope)) return;
 
-  if (request.mode === "navigate" || ["document", "script", "style", "manifest"].includes(request.destination)) {
-    event.respondWith(networkFirst(request));
-    return;
-  }
-
-  event.respondWith(cacheFirst(request));
+  event.respondWith(networkFirst(request, request.mode === "navigate"));
 });

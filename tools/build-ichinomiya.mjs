@@ -456,6 +456,9 @@ function htmlPage({ title, description, page, base = "", shrineId = "" }) {
   <meta name="theme-color" content="#642e28">
   <meta name="description" content="${description}">
   <title>${title}</title>${base ? `\n  <base href="${base}">` : ""}
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../assets/icons/app-icon-192.png">
+  <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-page="${page}" data-site="ichinomiya"${shrineId ? ` data-shrine-id="${shrineId}"` : ""}>
@@ -466,6 +469,7 @@ function htmlPage({ title, description, page, base = "", shrineId = "" }) {
   <script src="assets/js/data.js"></script>
   <script src="assets/js/my-collection.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="../assets/js/pwa.js"></script>
 </body>
 </html>
 `;

@@ -113,6 +113,9 @@ function detailPage(spot) {
   <meta name="description" content="${title}の写真と設置場所を残す旅帖。">
   <title>${title}｜蓋印旅帖</title>
   <base href="../">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/app-icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-page="spot" data-spot-id="${spot.id}">
@@ -124,6 +127,7 @@ function detailPage(spot) {
   <script src="assets/js/official-spots.js"></script>
   <script src="assets/js/my-collection.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/pwa.js"></script>
 </body>
 </html>
 `;

@@ -160,13 +160,14 @@
           <span class="cover-owner">わたしの旅の記録</span>
         </a>
         <a class="cover-open" href="map.html">表紙をひらく <span aria-hidden="true">›</span></a>
+        <a class="books-home" href="index.html">三冊の目次へ</a>
       </section>`;
   }
 
   function renderMapPage() {
     root.innerHTML = pageShell(`
       <article class="folio-page folio-map">
-        ${folioHeading({ number: "一", eyebrow: "旅の目次", title: "ポケフタ旅", intro: "行きたい地方を選ぶ。", backHref: "index.html", backLabel: "表紙", seal: "道" })}
+        ${folioHeading({ number: "一", eyebrow: "旅の目次", title: "ポケフタ旅", intro: "行きたい地方を選ぶ。", backHref: "pokefuta.html", backLabel: "表紙", seal: "道" })}
         ${renderMap()}
         ${folioNext("list.html", "全国の蓋を見る")}
       </article>`, "book-page");

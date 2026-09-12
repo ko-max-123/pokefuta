@@ -266,4 +266,5 @@ body[data-page="cover"] main { min-height: 100svh; display: grid; place-items: c
 }
 
 @media (hover: none) { .book-cover:hover { transform: rotateY(-2deg) rotateZ(-.25deg); } }
+.books-home { color: #554b3d; font: 600 .7rem var(--serif); letter-spacing: .12em; text-underline-offset: .3em; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }

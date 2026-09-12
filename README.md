@@ -1,15 +1,18 @@
-# 蓋印旅帖 — ポケふたスタンプ帳
+# 三冊の旅帖
 
-自分で撮影したポケふた写真を綴る、御朱印帳風の静的Webサイトです。外部ライブラリやビルド作業は不要で、GitHub Pagesへそのまま公開できます。
+ポケフタ、一宮、都道府県の三冊から開く帳面を選び、自分の旅の記録を見る静的Webサイトです。外部ライブラリやビルド作業は不要で、GitHub Pagesへそのまま公開できます。
 
 ## ページ構成
 
-- `index.html` — 御朱印帳の表紙
+- `index.html` — 三冊の旅帖を選ぶ目次
+- `pokefuta.html` — ポケフタ帳の表紙
 - `map.html` — 日本地図から地域を選ぶ入口
 - `list.html` — 全国一覧
 - `region.html?region=tohoku` — 地域詳細
 - `prefecture.html?pref=miyagi` — 都道府県別一覧
 - `spots/474.html` — 写真・場所・訪問印を表示する個別詳細
+- `ichinomiya/index.html` — 一宮巡礼帖
+- `todofuken/index.html` — 都道府県訪問帖
 
 ## 写真を入れる
 

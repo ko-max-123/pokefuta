@@ -1234,6 +1234,13 @@ body[data-site="ichinomiya"] .cover-binding {
   .spot-card:hover { transform: none; }
 }
 
+.books-home {
+  color: #5e5345;
+  font: 600 .7rem var(--serif);
+  letter-spacing: .12em;
+  text-underline-offset: .3em;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }

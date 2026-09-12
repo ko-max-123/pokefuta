@@ -39,10 +39,8 @@ body::after {
   background: repeating-linear-gradient(93deg, transparent 0 7px, rgba(67, 47, 21, .018) 7px 8px);
 }
 a { color: inherit; }
-button, input, select, textarea { font: inherit; }
-button, a { -webkit-tap-highlight-color: transparent; }
+a { -webkit-tap-highlight-color: transparent; }
 img { max-width: 100%; }
-code { font: .86em Consolas, monospace; overflow-wrap: anywhere; }
 
 .page-shell {
   position: relative;
@@ -186,8 +184,6 @@ body[data-page="cover"] main { min-height: 100svh; display: grid; place-items: c
 .prefecture-ticket.has-record { border-left: 3px solid var(--red); }
 .prefecture-ticket.has-record span { color: var(--red); font-weight: 700; }
 
-.add-ticket { display: flex; align-items: center; justify-content: center; gap: .65rem; width: min(100%, 430px); min-height: 54px; margin: 0 auto 2.2rem; color: var(--indigo); border: 1px solid currentColor; font: 700 .86rem var(--serif); letter-spacing: .08em; text-decoration: none; }
-.add-ticket span { color: var(--red); font-size: 1.3rem; }
 .place-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.3rem, 4vw, 2.5rem); }
 .place-card { padding: .75rem .75rem 1.15rem; background: rgba(255,252,243,.6); border: 1px solid var(--line); box-shadow: 2px 6px 12px rgba(58, 42, 22, .09); transform: rotate(var(--tilt, -.25deg)); }
 .place-card:nth-child(even) { --tilt: .3deg; }
@@ -206,19 +202,6 @@ body[data-page="cover"] main { min-height: 100svh; display: grid; place-items: c
 .photo-empty small { max-width: 15rem; overflow: hidden; color: #938674; font: 500 .62rem var(--sans); text-overflow: ellipsis; white-space: nowrap; }
 .photo-frame.has-photo .photo-empty { display: none; }
 
-.entry-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 1.7rem; max-width: 820px; margin: auto; }
-.entry-form label { display: grid; gap: .4rem; }
-.entry-form label > span { color: var(--red); font-size: .68rem; font-weight: 700; letter-spacing: .14em; }
-.entry-form input, .entry-form select, .entry-form textarea { width: 100%; min-height: 50px; padding: .65rem .8rem; color: var(--ink); background: rgba(255,252,243,.55); border: 0; border-bottom: 1px solid #8d7b61; border-radius: 0; outline: none; }
-.entry-form textarea { resize: vertical; border: 1px solid var(--line); }
-.entry-form input:focus, .entry-form select:focus, .entry-form textarea:focus { box-shadow: 0 2px 0 var(--red); }
-.entry-form .wide { grid-column: 1 / -1; }
-.form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
-.ink-button { min-height: 52px; padding: .7rem 1.4rem; color: #fff7e8; background: var(--indigo); border: 1px solid var(--indigo-deep); font-family: var(--serif); letter-spacing: .12em; cursor: pointer; }
-.text-button { padding: .6rem .8rem; color: var(--muted); background: transparent; border: 0; text-decoration: underline; text-underline-offset: .25em; cursor: pointer; }
-.text-button.danger { color: var(--red); }
-.storage-note { margin: .4rem 0 0; padding: 1rem 1.2rem; color: var(--muted); background: rgba(220,204,171,.32); border-left: 3px solid var(--gold); font: 500 .7rem/1.8 var(--sans); }
-
 .detail-book-page { width: min(1020px, calc(100% - 36px)); }
 .place-detail { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(310px, .8fr); min-height: calc(100svh - 70px); }
 .detail-photo { position: relative; padding: clamp(1.4rem, 5vw, 3.6rem); border-right: 1px solid var(--line); }
@@ -229,8 +212,7 @@ body[data-page="cover"] main { min-height: 100svh; display: grid; place-items: c
 .detail-copy time, .date-empty { display: block; margin-top: 1rem; color: var(--red); font: 700 .78rem var(--serif); }
 .memo { margin: 2rem 0; padding: 1.3rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-family: var(--serif); line-height: 2; }
 .memo.muted { color: var(--muted); }
-.map-link, .edit-link { display: inline-flex; min-height: 44px; align-items: center; color: var(--indigo); font-size: .78rem; font-weight: 700; text-underline-offset: .25em; }
-.edit-link { display: flex; width: max-content; margin-top: .8rem; color: var(--muted); }
+.map-link { display: inline-flex; min-height: 44px; align-items: center; color: var(--indigo); font-size: .78rem; font-weight: 700; text-underline-offset: .25em; }
 .missing-page { min-height: calc(100svh - 70px); display: grid; place-content: center; gap: 1rem; padding: 2rem; text-align: center; font-family: var(--serif); }
 
 @media (max-width: 820px) {
@@ -264,20 +246,12 @@ body[data-page="cover"] main { min-height: 100svh; display: grid; place-items: c
   .place-card-copy p { font-size: .78rem; }
   .place-card-copy h2 { font-size: 1.3rem; }
   .place-card-copy time { font-size: .82rem; }
-  .add-ticket { min-height: 56px; font-size: .88rem; }
-  .entry-form { grid-template-columns: 1fr; gap: 1.2rem; }
-  .entry-form .wide { grid-column: auto; }
-  .entry-form input, .entry-form select, .entry-form textarea { font-size: 16px; }
-  .entry-form label > span { font-size: .78rem; }
-  .form-actions { display: grid; }
-  .ink-button { width: 100%; min-height: 56px; }
-  .storage-note { font-size: .78rem; }
   .place-detail { grid-template-columns: 1fr; min-height: 0; }
   .detail-photo { padding: 1.5rem .9rem 2rem; border-right: 0; border-bottom: 1px solid var(--line); }
   .photo-tape { top: 4.9rem; }
   .detail-copy { padding: 2.2rem 1.1rem 3rem; }
   .detail-copy h1 { font-size: clamp(2.6rem, 13vw, 4.2rem); }
-  .detail-copy time, .date-empty, .map-link, .edit-link { font-size: .86rem; }
+  .detail-copy time, .date-empty, .map-link { font-size: .86rem; }
   .memo { font-size: 1rem; }
 }
 

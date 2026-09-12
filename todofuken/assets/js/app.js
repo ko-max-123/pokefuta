@@ -6,7 +6,6 @@
   const page = document.body.dataset.page;
   const root = document.querySelector("[data-page-root]");
   const query = new URLSearchParams(window.location.search);
-  const storageKey = "todofuken-visit-book-places-v1";
 
   function escapeHtml(value) {
     return String(value || "")
@@ -17,36 +16,21 @@
       .replaceAll("'", "&#039;");
   }
 
-  function readLocalPlaces() {
-    try {
-      const parsed = JSON.parse(localStorage.getItem(storageKey));
-      return Array.isArray(parsed) ? parsed : [];
-    } catch (_) {
-      return [];
-    }
-  }
-
-  function saveLocalPlaces(places) {
-    localStorage.setItem(storageKey, JSON.stringify(places));
-  }
-
-  function normalizePlace(place, origin) {
+  function normalizePlace(place) {
     return {
       id: String(place.id || ""),
       prefecture: String(place.prefecture || ""),
       municipality: String(place.municipality || ""),
       visitedOn: String(place.visitedOn || ""),
       photo: String(place.photo || ""),
-      memo: String(place.memo || ""),
-      origin
+      memo: String(place.memo || "")
     };
   }
 
   function getPlaces() {
-    const byId = new Map();
-    sourcePlaces.map((item) => normalizePlace(item, "source")).forEach((item) => byId.set(item.id, item));
-    readLocalPlaces().map((item) => normalizePlace(item, "local")).forEach((item) => byId.set(item.id, item));
-    return [...byId.values()].filter((item) => item.id && item.prefecture && item.municipality);
+    return sourcePlaces
+      .map(normalizePlace)
+      .filter((item) => item.id && item.prefecture && item.municipality);
   }
 
   function allPrefectures() {
@@ -186,66 +170,9 @@
       <article class="folio-page">
         ${folioHeading({ number: "三", eyebrow: "訪ねた市町村", title: prefecture, intro: places.length ? `${places.length}市町村の記憶を綴じています。` : "まだ訪問先は記録されていません。", backHref: `region.html?region=${region.id}`, backLabel: region.name, seal: "訪" })}
         <section class="folio-body">
-          <a class="add-ticket" href="add.html?pref=${encodeURIComponent(prefecture)}"><span aria-hidden="true">＋</span>${escapeHtml(prefecture)}の市・町・村を記録する</a>
-          <div class="place-grid">${places.length ? places.map(placeCard).join("") : `<p class="empty-note">最初の市・町・村を記録すると、ここに写真札が並びます。</p>`}</div>
+          <div class="place-grid">${places.length ? places.map(placeCard).join("") : `<p class="empty-note">この都道府県の訪問記録はまだありません。</p>`}</div>
         </section>
       </article>`, "book-page");
-  }
-
-  function prefectureOptions(selected) {
-    return data.regions.map((region) => `<optgroup label="${escapeHtml(region.name)}">${region.prefectures.map((prefecture) => `<option value="${escapeHtml(prefecture)}" ${prefecture === selected ? "selected" : ""}>${escapeHtml(prefecture)}</option>`).join("")}</optgroup>`).join("");
-  }
-
-  function renderAdd() {
-    const id = query.get("id");
-    const localPlaces = readLocalPlaces();
-    const editing = id ? localPlaces.find((item) => item.id === id) : null;
-    const prefecture = editing?.prefecture || selectedPrefecture();
-    document.title = `${editing ? "記録を直す" : "市町村を記録する"}｜都道府県訪問帖`;
-    root.innerHTML = pageShell(`
-      <article class="folio-page form-page">
-        ${folioHeading({ number: "四", eyebrow: "旅の記録", title: editing ? "記録を直す" : "市町村を記す", intro: "入力した内容は、この端末のブラウザに保存されます。", backHref: `prefecture.html?pref=${encodeURIComponent(prefecture)}`, backLabel: prefecture, seal: "記" })}
-        <section class="folio-body">
-          <form id="place-form" class="entry-form">
-            <label><span>都道府県</span><select name="prefecture" required>${prefectureOptions(prefecture)}</select></label>
-            <label><span>市・町・村の名前</span><input name="municipality" value="${escapeHtml(editing?.municipality)}" placeholder="例：横浜市" required autocomplete="off"></label>
-            <label><span>訪問日</span><input name="visitedOn" type="date" value="${escapeHtml(editing?.visitedOn)}"></label>
-            <label><span>写真の相対パス</span><input name="photo" value="${escapeHtml(editing?.photo)}" placeholder="assets/photos/kanagawa-yokohama.jpg" inputmode="url"></label>
-            <label class="wide"><span>ひとこと</span><textarea name="memo" rows="5" placeholder="この町で覚えておきたいこと">${escapeHtml(editing?.memo)}</textarea></label>
-            <div class="form-actions wide">
-              <button class="ink-button" type="submit">${editing ? "記録を書き直す" : "訪問帖に綴じる"}</button>
-              ${editing ? `<button class="text-button danger" id="delete-place" type="button">この記録を削除する</button>` : ""}
-            </div>
-            <p class="storage-note wide">写真ファイルのアップロードは行いません。写真を <code>todofuken/assets/photos</code> に置いて、上の欄へ相対パスを入力してください。端末をまたいで表示したい記録は <code>assets/js/my-places.js</code> に書きます。</p>
-          </form>
-        </section>
-      </article>`, "book-page");
-
-    document.getElementById("place-form").addEventListener("submit", (event) => {
-      event.preventDefault();
-      const form = new FormData(event.currentTarget);
-      const municipality = String(form.get("municipality") || "").trim();
-      const selected = String(form.get("prefecture") || "");
-      if (!municipality || !allPrefectures().includes(selected)) return;
-      const record = {
-        id: editing?.id || `local-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
-        prefecture: selected,
-        municipality,
-        visitedOn: String(form.get("visitedOn") || ""),
-        photo: String(form.get("photo") || "").trim(),
-        memo: String(form.get("memo") || "").trim()
-      };
-      const next = localPlaces.filter((item) => item.id !== record.id);
-      next.push(record);
-      saveLocalPlaces(next);
-      window.location.href = `prefecture.html?pref=${encodeURIComponent(selected)}`;
-    });
-
-    document.getElementById("delete-place")?.addEventListener("click", () => {
-      if (!window.confirm(`${editing.municipality}の記録を削除しますか？`)) return;
-      saveLocalPlaces(localPlaces.filter((item) => item.id !== editing.id));
-      window.location.href = `prefecture.html?pref=${encodeURIComponent(editing.prefecture)}`;
-    });
   }
 
   function renderPlace() {
@@ -268,7 +195,6 @@
           ${place.visitedOn ? `<time datetime="${escapeHtml(place.visitedOn)}">${escapeHtml(formatDate(place.visitedOn))}　訪問</time>` : `<p class="date-empty">訪問日未記入</p>`}
           ${place.memo ? `<p class="memo">${escapeHtml(place.memo).replaceAll("\n", "<br>")}</p>` : `<p class="memo muted">ひとことはまだありません。</p>`}
           <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.prefecture} ${place.municipality}`)}" target="_blank" rel="noopener noreferrer">地図で場所を確認する ↗</a>
-          ${place.origin === "local" ? `<a class="edit-link" href="add.html?pref=${encodeURIComponent(place.prefecture)}&id=${encodeURIComponent(place.id)}">この記録を書き直す</a>` : ""}
         </div>
       </article>`, "book-page detail-book-page");
   }
@@ -287,7 +213,7 @@
     });
   }
 
-  const renderers = { cover: renderCover, map: renderMap, region: renderRegion, prefecture: renderPrefecture, add: renderAdd, place: renderPlace };
+  const renderers = { cover: renderCover, map: renderMap, region: renderRegion, prefecture: renderPrefecture, place: renderPlace };
   (renderers[page] || renderCover)();
   bindPhotoFallbacks();
   bindPageTurns();

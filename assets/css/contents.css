@@ -129,7 +129,7 @@ a { color: inherit; -webkit-tap-highlight-color: transparent; }
 }
 .mini-cover::before { top: 11px; border-top: 1px solid rgba(197, 159, 91, .38); }
 .mini-cover::after { bottom: 11px; border-bottom: 1px solid rgba(197, 159, 91, .38); }
-.book-pokefuta { --cover: #5b2825; --cover-edge: #391918; }
+.book-pokefuta { --cover: #264c4b; --cover-edge: #173535; }
 .book-ichinomiya { --cover: #49382d; --cover-edge: #2d211b; }
 .book-todofuken { --cover: #273f46; --cover-edge: #15272c; }
 .mini-binding {
